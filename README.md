@@ -1,16 +1,49 @@
-# React + Vite
+# Tienda online Wizard Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda en linea para Wizard Tech 
 
-Currently, two official plugins are available:
+## Descripción del Proyecto
+Aplicación web de comercio electrónico desarrollada como proyecto práctico de **React**. Permite a los usuarios explorar un catálogo de productos, filtrar por categorías, visualizar el detalle de cada artículo y gestionar un carrito de compras de forma dinámica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías Utilizadas
+* **React** – Librería principal para la construcción de la interfaz de usuario basada en componentes.
+* **Vite** – Entorno de desarrollo y empaquetador rápido.
+* **JavaScript (ES6+)** – Lógica de la aplicación y manejo de datos.
+* **HTML5 & CSS3** – Estructura semántica y estilos de la aplicación.
 
-## React Compiler
+## Instalación y Ejecución Local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sigue estos pasos para clonar y correr el proyecto en tu computadora:
 
-## Expanding the ESLint configuration
+1. **Clonar el repositorio:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   git clone (https://github.com/alan8723/e-comerc-Wizard-tech.git)
+   ```
+
+2. **Instalar dependencias:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar la aplicación:**
+
+   ```bash
+   npm run dev
+   ```
+
+## Estructura del Proyecto
+
+```
+e-comerc-Wizard-tech/
+├── public/              # Archivos estáticos (imágenes, favicon, etc.)
+├── src/
+│   ├── components/      # Componentes reutilizables de React
+│   ├── App.jsx          # Componente principal de la aplicación
+│   └── main.jsx         # Punto de entrada de la aplicación
+├── index.html           # Plantilla HTML principal
+├── package.json         # Dependencias y scripts del proyecto
+├── vite.config.js       # Configuración de Vite
+└── README.md            # Este archivo
+```
