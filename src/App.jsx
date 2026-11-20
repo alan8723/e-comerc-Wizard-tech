@@ -1,7 +1,8 @@
 function App() {
   return (
     <>
-      <h1>E-Comerce</h1>
+      <h1>Wizard Tech Store</h1>
+      <p>Bienvenidos a la tienda Online</p>
     </>
   )
 }
