@@ -1,5 +1,5 @@
 import './Navbar.css';
-import Widget from '../widget/Widget';
+import Widget from '../Widget/Widget';
 
 function Navbar(){
 
