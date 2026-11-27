@@ -1,8 +1,10 @@
+import React from 'react'
+import Navbar from './components/navbar/Navbar.jsx'
+
 function App() {
   return (
     <>
-      <h1>Wizard Tech Store</h1>
-      <p>Bienvenidos a la tienda Online</p>
+      <Navbar />
     </>
   )
 }
